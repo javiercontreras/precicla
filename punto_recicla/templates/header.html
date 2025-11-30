@@ -1,21 +1,23 @@
-<header class="main-header">
-    <div class="header-container">
-        <a href="#inicio" class="logo">
-            Mi Sitio Web
-        </a>
+<header class="header">
+        <div class="logo-search">
+            <div class="logo">
+                <span class="icon-recycle">♻️</span> 
+                <h1>Recycle Finder</h1>
+            </div>
+            <input type="search" placeholder="Search location" class="search-location">
+        </div>
         
-        <nav class="main-nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#inicio">Inicio</a></li>
-                <li class="nav-item"><a href="#servicios">Servicios</a></li>
-                <li class="nav-item"><a href="#productos">Productos</a></li>
-                <li class="nav-item"><a href="#acerca">Acerca de</a></li>
-                <li class="nav-item"><a href="#contacto" class="contact-link">Contacto</a></li>
-            </ul>
-        </nav>
-        
-        <button class="menu-toggle" aria-label="Abrir menú de navegación">
-            ☰
-        </button>
-    </div>
-</header>
+        <div class="materials-filter">
+            <h2>Select Materials</h2>
+            <input type="search" placeholder='Busca por residuo "libros"' class="search-material">
+            
+            <div class="materials-grid">
+                <label><input type="checkbox" name="material" value="paper"> Paper</label>
+                <label><input type="checkbox" name="material" value="plastic"> Plastic</label>
+                <label><input type="checkbox" name="material" value="glass"> Glass</label>
+                <label><input type="checkbox" name="material" value="e-waste"> E-Waste</label>
+                <label><input type="checkbox" name="material" value="cardboard"> Cardboard</label>
+                <label><input type="checkbox" name="material" value="metals"> Metals</label>
+            </div>
+        </div>
+    </header>
